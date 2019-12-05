@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class ThirdPersonCamera : MonoBehaviour  // create Third Person Camera Class
 {
-    public Transform lookAt;                   //allows to set what the camera will look like
-    public Transform camTransform;             //Camera's transform values
+    public Transform lookAt;                    //allows to set what the camera will look like
+    public Transform camTransform;              //Camera's transform values
 
-    private Camera cam;                        //references the camera
+    private Camera cam;                         //references the camera
 
-    private float distance = 30.0f;            //sets the distance away from the lookAt object
-    private float currentX = 0.0f;             //sets the current X position of the camera
-    private float currentY = 5.0f;             //sets the current Y position of the camera
+    private float distance = 30.0f;             //sets the distance away from the lookAt object
+    private float currentX = 0.0f;              //sets the current X position of the camera
+    private float currentY = 5.0f;              //sets the current Y position of the camera
 
     private void Start()
     {
-        camTransform = transform;              //sets the Camera's initial transform position
-        cam = Camera.main;                     //Gets the camera on the scene
+        camTransform = transform;               //sets the Camera's initial transform position
+        cam = Camera.main;                      //Gets the camera on the scene
     }
 
     private void LateUpdate()
