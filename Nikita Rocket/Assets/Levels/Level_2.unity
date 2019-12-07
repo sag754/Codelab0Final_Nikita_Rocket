@@ -5539,6 +5539,7 @@ GameObject:
   - component: {fileID: 1266317387}
   - component: {fileID: 1266317386}
   - component: {fileID: 1266317385}
+  - component: {fileID: 1266317388}
   m_Layer: 0
   m_Name: Objective_Object
   m_TagString: Finish
@@ -5619,6 +5620,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266317383}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1266317388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266317383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32ed183711a2754681b1fb91ab163be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1314483440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5699,6 +5712,16 @@ PrefabInstance:
     - target: {fileID: 3019149049826738713, guid: 1e6aee9e2ca3c644dbaabc808c1c7fed,
         type: 3}
       propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 1998638731}
+    - target: {fileID: 3019149049826738713, guid: 1e6aee9e2ca3c644dbaabc808c1c7fed,
+        type: 3}
+      propertyPath: explodeParticles
+      value: 
+      objectReference: {fileID: 1002913512}
+    - target: {fileID: 3019149049826738713, guid: 1e6aee9e2ca3c644dbaabc808c1c7fed,
+        type: 3}
+      propertyPath: destroyedParticles
       value: 
       objectReference: {fileID: 1998638731}
     - target: {fileID: 4821881967411731638, guid: 1e6aee9e2ca3c644dbaabc808c1c7fed,

@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Levels/Mission_Complete.unity
-    guid: 3e153fb8eede5b44bae286baac087543
+    path: Assets/Levels/Main_Menu.unity
+    guid: e8a2e88b7ee06184fb69d4088055481f
   - enabled: 1
     path: Assets/Levels/Instructions.unity
     guid: 67b5d306c361ba143ab492b2d186f536
@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Levels/Level_3.unity
     guid: 23c0089af75e1ba46b2cc0c61ecba50d
   - enabled: 1
-    path: Assets/Levels/Main_Menu.unity
-    guid: e8a2e88b7ee06184fb69d4088055481f
+    path: Assets/Levels/Mission_Complete.unity
+    guid: 3e153fb8eede5b44bae286baac087543
   m_configObjects: {}

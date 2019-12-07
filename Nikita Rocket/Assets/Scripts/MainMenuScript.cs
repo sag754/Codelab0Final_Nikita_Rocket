@@ -8,9 +8,9 @@ public class MainMenuScript : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))                  //if the player hits the spacebar
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(1);                    //go to the instructions screen
         }
     }
 }
